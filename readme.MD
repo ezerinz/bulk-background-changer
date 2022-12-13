@@ -1,6 +1,8 @@
 # pas-foto-generator
 Menghilangkan lalu mengubah latar belakang foto menggunakan PIL dan [rembg](https://github.com/danielgatis/rembg)
-<img src="https://raw.githubusercontent.com/ezerinz/pas-foto-generator/main/hasil.png" width="100" />
+<p style="display: flex;align-items: center;justify-content: center;">
+	<img src="https://raw.githubusercontent.com/ezerinz/pas-foto-generator/main/hasil.png"/>
+</p>
 
 ## Requirements
 Install rembg
