@@ -5,9 +5,10 @@ import os, glob, io
 
 config = ConfigParser()
 config.read("config.cfg")
-input_path = config.get('config', 'input')
-output_path = config.get('config', 'output')
+input_path = 'input'
+output_path = 'hasil'
 background_color = config.get('config', 'bgcolor')
+
 if not os.path.exists(input_path):
     os.mkdir(input_path)
 
