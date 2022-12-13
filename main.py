@@ -1,7 +1,10 @@
 from rembg import remove
+from configparser import ConfigParser
 import PIL.Image as img
 import os, glob, io
 
+config = ConfigParser()
+config.read("config.cfg")
 input_path = 'input'
 output_path = 'hasil'
 
@@ -18,7 +21,7 @@ for all in glob.glob('input/*'):
     nobg = remove(input)
     nobg.save(b, format="png")
     rembg = img.open(b)
-    output = img.new("RGBA", input.size, "RED")
+    output = img.new("RGBA", input.size, config.get('config', 'bgcolor'))
     output.paste(rembg, mask=rembg)
     output.convert("RGB").save("hasil/"+filename+".png")
 
