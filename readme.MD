@@ -1,4 +1,4 @@
-# bulk-background-changer
+# background-changer
 Menghilangkan lalu mengubah latar belakang foto menggunakan PIL dan [rembg](https://github.com/danielgatis/rembg)
 <p style="display: flex;align-items: center;justify-content: center;">
 	<img src="https://raw.githubusercontent.com/ezerinz/pas-foto-generator/main/hasil.png"/>
