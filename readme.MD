@@ -1,5 +1,5 @@
 # background-changer
-Menghilangkan lalu mengubah latar belakang foto menggunakan PIL dan [rembg](https://github.com/danielgatis/rembg)
+Simple python script to change image background in batches using [rembg](https://github.com/danielgatis/rembg)
 <p style="display: flex;align-items: center;justify-content: center;">
 	<img src="https://raw.githubusercontent.com/ezerinz/pas-foto-generator/main/hasil.png"/>
 </p>
@@ -12,7 +12,7 @@ pip install rembg
 ```
 
 ## Usage
-Letakkan file foto dalam folder input lalu jalankan 
+Put photos in input folder and then run
 
 ```bash
 python3 main.py
